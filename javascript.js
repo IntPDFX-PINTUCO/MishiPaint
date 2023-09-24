@@ -52,6 +52,6 @@ function toumov(info) {
 }
 if (screen.width < 992) {
     tablero.width = screen.width - 70
-    tablero.height = screen.height - 200
+    tablero.height = screen.height /2
     document.body.style.overflow = "hidden"
 }
